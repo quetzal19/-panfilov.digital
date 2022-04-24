@@ -28,10 +28,10 @@
   </a>
 </template>
 <script>
-import digitalSVG from './../assets/logo/digital.svg?component';
-import panfilovSVG from './../assets/logo/panfilov.svg?component';
-import logoWhiteSVG from './../assets/logo/logo-white.svg?component';
-import logoBlackSVG from './../assets/logo/logo-black.svg?component';
+import digitalSVG from './../../assets/ico/logo/digital.svg';
+import panfilovSVG from './../../assets/ico/logo/panfilov.svg';
+import logoWhiteSVG from './../../assets/ico/logo/logo-white.svg';
+import logoBlackSVG from './../../assets/ico/logo/logo-black.svg';
 
 export default {
 
