@@ -1,0 +1,58 @@
+.panfilov-digital-sign {
+  color: var(--panfilov-digital-sign__currentTextColor);
+  text-decoration: none;
+  display: flex;
+
+  &._small {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+
+    > .text {
+      margin-top: 5px;
+    }
+  }
+
+  &._medium {
+    align-items: center;
+  }
+
+  &._large {
+    align-items: center;
+    .wrapper {
+      margin-left: 8px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+
+    .text {
+      margin-top: 5px;
+    }
+  }
+
+  .icon {
+    display: flex;
+
+    svg {
+      color: var(--panfilov-digital-sign__currentSVGColor);
+      width: 6em;
+      height: 1.5em;
+
+      &:last-child {
+        width: 5em;
+      }
+    }
+  }
+
+  &:hover {
+    color: var(--panfilov-digital-sign__hoverTextColor);
+
+    .icon {
+      svg {
+        &:last-child {
+          color: var(--panfilov-digital-sign__hoverSVGColor);
+        }
+      }
+    }
+  }
+}

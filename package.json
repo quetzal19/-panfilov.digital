@@ -1,0 +1,44 @@
+{
+  "name": "panfilov.digital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "build:vanilla": "webpack build --config ./scripts/webpack-config.vanilla.js",
+    "build:vue": "vue-cli-service build --dest dist/vue --target lib --inline-vue ./src/vue/index.js",
+    "dev": "vue-cli-service serve ./src/vue/sign/index.vue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quetzal19/panfilov.digital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quetzal19/panfilov.digital/issues"
+  },
+  "homepage": "https://github.com/quetzal19/panfilov.digital#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@vue/cli": "^5.0.4",
+    "@vue/cli-service": "^5.0.4",
+    "@vue/compiler-sfc": "^3.2.33",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "vue": "^3.2.31",
+    "vue-loader": "^17.0.0",
+    "vue-loader-plugin": "^1.3.0",
+    "vue-svg-loader": "^0.17.0-beta.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "ts-loader": "^9.2.8"
+  }
+}
