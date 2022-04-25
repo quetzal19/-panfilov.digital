@@ -1,6 +1,7 @@
 // rollup.config.js
 import fs from 'fs';
 import path from 'path';
+import svg from 'rollup-plugin-vue-inline-svg';
 import vue from 'rollup-plugin-vue';
 import alias from '@rollup/plugin-alias';
 import commonjs from '@rollup/plugin-commonjs';
@@ -39,6 +40,9 @@ const baseConfig = {
     ],
     replace: {
       'process.env.NODE_ENV': JSON.stringify('production'),
+    },
+    svg: {
+      svgoConfig: false
     },
     vue: {
       css: true,
@@ -91,6 +95,7 @@ if (!argv.format || argv.format === 'es') {
     plugins: [
       replace(baseConfig.plugins.replace),
       ...baseConfig.plugins.preVue,
+      svg(baseConfig.plugins.svg),
       vue(baseConfig.plugins.vue),
       ...baseConfig.plugins.postVue,
       babel({
@@ -125,6 +130,7 @@ if (!argv.format || argv.format === 'cjs') {
     plugins: [
       replace(baseConfig.plugins.replace),
       ...baseConfig.plugins.preVue,
+      svg(baseConfig.plugins.svg),
       vue({
         ...baseConfig.plugins.vue,
         template: {
@@ -154,6 +160,7 @@ if (!argv.format || argv.format === 'iife') {
     plugins: [
       replace(baseConfig.plugins.replace),
       ...baseConfig.plugins.preVue,
+      svg(baseConfig.plugins.svg),
       vue(baseConfig.plugins.vue),
       ...baseConfig.plugins.postVue,
       babel(baseConfig.plugins.babel),

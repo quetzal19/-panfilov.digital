@@ -1,1 +1,1 @@
-export { default as PanfilovDigitalSign } from "sign";
+export { default as PanfilovDigitalSign } from "./sign";
