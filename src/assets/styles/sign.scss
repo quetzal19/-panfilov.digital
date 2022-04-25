@@ -49,6 +49,7 @@
 
     .icon {
       svg {
+        color: var(--panfilov-digital-sign__hoverTextColor);
         &:last-child {
           color: var(--panfilov-digital-sign__hoverSVGColor);
         }
