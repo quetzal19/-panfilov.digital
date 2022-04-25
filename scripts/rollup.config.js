@@ -42,7 +42,13 @@ const baseConfig = {
       'process.env.NODE_ENV': JSON.stringify('production'),
     },
     svg: {
-      svgoConfig: false
+      svgoConfig: {
+        plugins: [
+          {
+            mergePaths: false,
+          },
+        ]
+      }
     },
     vue: {
       css: true,
@@ -73,7 +79,7 @@ const external = [
 ];
 
 // UMD/IIFE shared settings: output.globals
-// Refer to https://rollupjs.org/guide/en#output-globals for details
+// Refer to https://rollupjs.org/guide/en#output-globals for details22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 const globals = {
   // Provide global variable names to replace your external imports
   // eg. jquery: '$'
