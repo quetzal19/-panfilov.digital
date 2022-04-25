@@ -37,12 +37,12 @@
 
     svg {
       color: var(--panfilov-digital-sign__currentSVGColor);
-      width: 6em;
-      height: 1.5em;
+      width: 4em;
+      height: 1em;
       transition: 0.2s;
 
       &:last-child {
-        width: 5em;
+        width: 3.5em;
       }
     }
   }
