@@ -27,6 +27,7 @@
 
     .text {
       margin-top: 5px;
+      transition: 0.2s;
     }
   }
 
@@ -37,6 +38,7 @@
       color: var(--panfilov-digital-sign__currentSVGColor);
       width: 6em;
       height: 1.5em;
+      transition: 0.2s;
 
       &:last-child {
         width: 5em;
