@@ -1,1 +1,0 @@
-export { default as PanfilovDigitalSign } from "./sign/index.vue";
