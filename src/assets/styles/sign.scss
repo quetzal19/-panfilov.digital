@@ -2,6 +2,7 @@
   color: var(--panfilov-digital-sign__currentTextColor);
   text-decoration: none;
   display: flex;
+  flex-wrap: wrap;
 
   &._small {
     flex-direction: column-reverse;
