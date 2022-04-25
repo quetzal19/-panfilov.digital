@@ -70,7 +70,7 @@ const largeHtml = ({ darkTheme }: IOptions) => (`
 `);
 
 const html = ({ url, mode, darkTheme }: IOptions) => (`
-  <a href="${url}" class="panfilov-digital-sign" :class="[\`_${mode}\`]">
+  <a href="${url}" target="_blank" class="panfilov-digital-sign" :class="[\`_${mode}\`]">
     ${mode === 'small' ? smallHtml() : ''}
     ${mode === 'medium' ? mediumHtml() : ''}
     ${mode === 'large' ? largeHtml({ darkTheme }) : ''}

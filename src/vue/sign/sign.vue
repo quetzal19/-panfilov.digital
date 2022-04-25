@@ -1,5 +1,5 @@
 <template>
-  <a :href="url" class="panfilov-digital-sign" :class="[`_${mode}`]">
+  <a :href="url" target="_blank" class="panfilov-digital-sign" :class="[`_${mode}`]">
     <template v-if="mode === 'small'">
       <span class="text">Разработка сайта</span>
       <span class="icon">

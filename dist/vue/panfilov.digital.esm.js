@@ -205,7 +205,8 @@ var __vue_render__ = function () {
     staticClass: "panfilov-digital-sign",
     class: ["_" + _vm.mode],
     attrs: {
-      "href": _vm.url
+      "href": _vm.url,
+      "target": "_blank"
     }
   }, [_vm.mode === 'small' ? [_c('span', {
     staticClass: "text"
@@ -229,8 +230,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-6f4d5224_0", {
-    source: ".panfilov-digital-sign[data-v-6f4d5224]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;flex-wrap:wrap}.panfilov-digital-sign._small[data-v-6f4d5224]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-6f4d5224]{margin-top:5px}.panfilov-digital-sign._medium[data-v-6f4d5224]{align-items:center}.panfilov-digital-sign._large[data-v-6f4d5224]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-6f4d5224]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-6f4d5224]{margin-top:5px;transition:.2s}.panfilov-digital-sign .icon[data-v-6f4d5224]{display:flex}.panfilov-digital-sign .icon svg[data-v-6f4d5224]{color:var(--panfilov-digital-sign__currentSVGColor);width:4em;height:1em;transition:.2s}.panfilov-digital-sign .icon svg[data-v-6f4d5224]:last-child{width:3.5em}.panfilov-digital-sign[data-v-6f4d5224]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon svg[data-v-6f4d5224]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon svg[data-v-6f4d5224]:last-child{color:var(--panfilov-digital-sign__hoverSVGColor)}",
+  inject("data-v-821e9b4a_0", {
+    source: ".panfilov-digital-sign[data-v-821e9b4a]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;flex-wrap:wrap}.panfilov-digital-sign._small[data-v-821e9b4a]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-821e9b4a]{margin-top:5px}.panfilov-digital-sign._medium[data-v-821e9b4a]{align-items:center}.panfilov-digital-sign._large[data-v-821e9b4a]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-821e9b4a]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-821e9b4a]{margin-top:5px;transition:.2s}.panfilov-digital-sign .icon[data-v-821e9b4a]{display:flex}.panfilov-digital-sign .icon svg[data-v-821e9b4a]{color:var(--panfilov-digital-sign__currentSVGColor);width:4em;height:1em;transition:.2s}.panfilov-digital-sign .icon svg[data-v-821e9b4a]:last-child{width:3.5em}.panfilov-digital-sign[data-v-821e9b4a]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon svg[data-v-821e9b4a]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon svg[data-v-821e9b4a]:last-child{color:var(--panfilov-digital-sign__hoverSVGColor)}",
     map: undefined,
     media: undefined
   });
@@ -238,7 +239,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-6f4d5224";
+const __vue_scope_id__ = "data-v-821e9b4a";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
