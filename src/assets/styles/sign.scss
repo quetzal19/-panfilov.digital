@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+
 .panfilov-digital-sign {
   color: var(--panfilov-digital-sign__currentTextColor);
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
+  font-size: 14px;
 
   &._small {
     flex-direction: column-reverse;
@@ -28,22 +31,24 @@
 
     .text {
       margin-top: 5px;
-      transition: 0.2s;
     }
   }
 
+  .text {
+    font-family: 'Syne', sans-serif;
+    font-size: 1em;
+    transition: 0.2s;
+  }
+
   .icon {
+    color: var(--panfilov-digital-sign__currentSVGColor);
+    font-family: 'Syne', sans-serif;
     display: flex;
+    transition: 0.2s;
+    font-size: 1.4em;
 
-    svg {
-      color: var(--panfilov-digital-sign__currentSVGColor);
-      width: 4em;
-      height: 1em;
+    &-anim {
       transition: 0.2s;
-
-      &:last-child {
-        width: 3.5em;
-      }
     }
   }
 
@@ -51,11 +56,10 @@
     color: var(--panfilov-digital-sign__hoverTextColor);
 
     .icon {
-      svg {
-        color: var(--panfilov-digital-sign__hoverTextColor);
-        &:last-child {
-          color: var(--panfilov-digital-sign__hoverSVGColor);
-        }
+      color: var(--panfilov-digital-sign__hoverTextColor);
+
+      &-anim {
+        color: var(--panfilov-digital-sign__hoverSVGColor);
       }
     }
   }

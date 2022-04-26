@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist",
   "scripts": {
+    "dev:vue": "vue-cli-service serve ./example/vue/sign/main.js",
     "build:vanilla": "webpack build --config ./scripts/webpack-config.vanilla.js",
     "build:vue": "vue-cli-service build --dest dist/vue --target lib --inline-vue ./src/vue/index.js",
     "build:vue-test": "cross-env NODE_ENV=production rollup --config scripts/rollup.config.js",

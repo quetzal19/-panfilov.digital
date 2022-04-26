@@ -2,34 +2,23 @@
   <a :href="url" target="_blank" class="panfilov-digital-sign" :class="[`_${mode}`]">
     <template v-if="mode === 'small'">
       <span class="text">Разработка сайта</span>
-      <span class="icon">
-        <panfilovSVG />
-        <digitalSVG />
-      </span>
+      <span class="icon">Panfilov.<span class="icon-anim">Digital</span></span>
     </template>
     <template v-if="mode === 'medium'">
       <span class="text">Разработка сайта &mdash;&nbsp;</span>
-      <span class="icon">
-        <panfilovSVG />
-        <digitalSVG />
-      </span>
+      <span class="icon">Panfilov.<span class="icon-anim">Digital</span></span>
     </template>
     <template v-if="mode === 'large'">
       <logoWhiteSVG v-if="!darkTheme" />
       <logoBlackSVG v-if="darkTheme" />
       <div class="wrapper">
         <span class="text">Разработка сайта</span>
-        <span class="icon">
-        <panfilovSVG />
-        <digitalSVG />
-      </span>
+        <span class="icon">Panfilov.<span class="icon-anim">Digital</span></span>
       </div>
     </template>
   </a>
 </template>
 <script>
-import digitalSVG from './../../assets/ico/logo/digital.svg';
-import panfilovSVG from './../../assets/ico/logo/panfilov.svg';
 import logoWhiteSVG from './../../assets/ico/logo/logo-white.svg';
 import logoBlackSVG from './../../assets/ico/logo/logo-black.svg';
 
@@ -40,8 +29,6 @@ export default {
   components: {
     logoWhiteSVG,
     logoBlackSVG,
-    digitalSVG,
-    panfilovSVG,
   },
 
   props: {
