@@ -218,9 +218,9 @@ var __vue_staticRenderFns__ = [function () {
 
   return _c('span', {
     staticClass: "icon"
-  }, [_vm._v("Panfilov."), _c('span', {
+  }, [_vm._v("panfilov."), _c('span', {
     staticClass: "icon-anim"
-  }, [_vm._v("Digital")])]);
+  }, [_vm._v("digital")])]);
 }, function () {
   var _vm = this;
 
@@ -230,9 +230,9 @@ var __vue_staticRenderFns__ = [function () {
 
   return _c('span', {
     staticClass: "icon"
-  }, [_vm._v("Panfilov."), _c('span', {
+  }, [_vm._v("panfilov."), _c('span', {
     staticClass: "icon-anim"
-  }, [_vm._v("Digital")])]);
+  }, [_vm._v("digital")])]);
 }, function () {
   var _vm = this;
 
@@ -246,16 +246,16 @@ var __vue_staticRenderFns__ = [function () {
     staticClass: "text"
   }, [_vm._v("Разработка сайта")]), _vm._v(" "), _c('span', {
     staticClass: "icon"
-  }, [_vm._v("Panfilov."), _c('span', {
+  }, [_vm._v("panfilov."), _c('span', {
     staticClass: "icon-anim"
-  }, [_vm._v("Digital")])])]);
+  }, [_vm._v("digital")])])]);
 }];
 /* style */
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-6b544e46_0", {
-    source: "@import url(https://fonts.googleapis.com/css2?family=Syne&display=swap);.panfilov-digital-sign[data-v-6b544e46]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;flex-wrap:wrap;font-size:14px}.panfilov-digital-sign._small[data-v-6b544e46]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-6b544e46]{margin-top:5px}.panfilov-digital-sign._medium[data-v-6b544e46]{align-items:center}.panfilov-digital-sign._large[data-v-6b544e46]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-6b544e46]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-6b544e46]{margin-top:5px}.panfilov-digital-sign .text[data-v-6b544e46]{font-family:Syne,sans-serif;font-size:1em;transition:.2s}.panfilov-digital-sign .icon[data-v-6b544e46]{color:var(--panfilov-digital-sign__currentSVGColor);font-family:Syne,sans-serif;display:flex;transition:.2s;font-size:1.4em}.panfilov-digital-sign .icon-anim[data-v-6b544e46]{transition:.2s}.panfilov-digital-sign[data-v-6b544e46]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon[data-v-6b544e46]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon-anim[data-v-6b544e46]{color:var(--panfilov-digital-sign__hoverSVGColor)}",
+  inject("data-v-3e6f5b74_0", {
+    source: "@import url(https://fonts.googleapis.com/css2?family=Syne&display=swap);.panfilov-digital-sign[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;flex-wrap:wrap;font-size:14px}.panfilov-digital-sign._small[data-v-3e6f5b74]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-3e6f5b74]{margin-top:5px}.panfilov-digital-sign._medium[data-v-3e6f5b74]{align-items:center}.panfilov-digital-sign._large[data-v-3e6f5b74]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-3e6f5b74]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-3e6f5b74]{margin-top:5px}.panfilov-digital-sign .text[data-v-3e6f5b74]{font-family:inherit;font-size:1em;transition:.2s}.panfilov-digital-sign .icon[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__currentSVGColor);font-family:Syne,sans-serif;display:flex;transition:.2s;font-size:1.4em}.panfilov-digital-sign .icon-anim[data-v-3e6f5b74]{transition:.2s}.panfilov-digital-sign[data-v-3e6f5b74]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon-anim[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__hoverSVGColor)}",
     map: undefined,
     media: undefined
   });
@@ -263,7 +263,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-6b544e46";
+const __vue_scope_id__ = "data-v-3e6f5b74";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;

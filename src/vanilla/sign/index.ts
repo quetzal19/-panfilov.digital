@@ -43,18 +43,18 @@ interface IProps {
 
 const smallHtml = () => (`
   <span class="text">Разработка сайта</span>
-  <span class="icon">Panfilov.<span class="icon-anim">Digital</span></span>
+  <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
 `);
 const mediumHtml = () => (`
   <span class="text">Разработка сайта &mdash;&nbsp;</span>
-  <span class="icon">Panfilov.<span class="icon-anim">Digital</span></span>
+  <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
 `);
 const largeHtml = ({ darkTheme }: IOptions) => (`
   ${!darkTheme ? logoWhiteSVG : ''}  
   ${darkTheme ? logoBlackSVG : ''}
   <div class="wrapper">
     <span class="text">Разработка сайта</span>
-    <span class="icon">Panfilov.<span class="icon-anim">Digital</span></span>
+    <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
   </div>
 `);
 

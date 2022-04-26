@@ -239,7 +239,7 @@ var __vue_render__ = function __vue_render__() {
       "href": _vm.url,
       "target": "_blank"
     }
-  }, [_vm._ssrNode((_vm.mode === 'small' ? "<span class=\"text\" data-v-6b544e46>Разработка сайта</span> <span class=\"icon\" data-v-6b544e46>Panfilov.<span class=\"icon-anim\" data-v-6b544e46>Digital</span></span>" : "<!---->") + " " + (_vm.mode === 'medium' ? "<span class=\"text\" data-v-6b544e46>Разработка сайта — </span> <span class=\"icon\" data-v-6b544e46>Panfilov.<span class=\"icon-anim\" data-v-6b544e46>Digital</span></span>" : "<!---->") + " "), _vm.mode === 'large' ? [!_vm.darkTheme ? _c('logoWhiteSVG') : _vm._e(), _vm._ssrNode(" "), _vm.darkTheme ? _c('logoBlackSVG') : _vm._e(), _vm._ssrNode(" <div class=\"wrapper\" data-v-6b544e46><span class=\"text\" data-v-6b544e46>Разработка сайта</span> <span class=\"icon\" data-v-6b544e46>Panfilov.<span class=\"icon-anim\" data-v-6b544e46>Digital</span></span></div>")] : _vm._e()], 2);
+  }, [_vm._ssrNode((_vm.mode === 'small' ? "<span class=\"text\" data-v-3e6f5b74>Разработка сайта</span> <span class=\"icon\" data-v-3e6f5b74>panfilov.<span class=\"icon-anim\" data-v-3e6f5b74>digital</span></span>" : "<!---->") + " " + (_vm.mode === 'medium' ? "<span class=\"text\" data-v-3e6f5b74>Разработка сайта — </span> <span class=\"icon\" data-v-3e6f5b74>panfilov.<span class=\"icon-anim\" data-v-3e6f5b74>digital</span></span>" : "<!---->") + " "), _vm.mode === 'large' ? [!_vm.darkTheme ? _c('logoWhiteSVG') : _vm._e(), _vm._ssrNode(" "), _vm.darkTheme ? _c('logoBlackSVG') : _vm._e(), _vm._ssrNode(" <div class=\"wrapper\" data-v-3e6f5b74><span class=\"text\" data-v-3e6f5b74>Разработка сайта</span> <span class=\"icon\" data-v-3e6f5b74>panfilov.<span class=\"icon-anim\" data-v-3e6f5b74>digital</span></span></div>")] : _vm._e()], 2);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -247,8 +247,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-6b544e46_0", {
-    source: "@import url(https://fonts.googleapis.com/css2?family=Syne&display=swap);.panfilov-digital-sign[data-v-6b544e46]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;flex-wrap:wrap;font-size:14px}.panfilov-digital-sign._small[data-v-6b544e46]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-6b544e46]{margin-top:5px}.panfilov-digital-sign._medium[data-v-6b544e46]{align-items:center}.panfilov-digital-sign._large[data-v-6b544e46]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-6b544e46]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-6b544e46]{margin-top:5px}.panfilov-digital-sign .text[data-v-6b544e46]{font-family:Syne,sans-serif;font-size:1em;transition:.2s}.panfilov-digital-sign .icon[data-v-6b544e46]{color:var(--panfilov-digital-sign__currentSVGColor);font-family:Syne,sans-serif;display:flex;transition:.2s;font-size:1.4em}.panfilov-digital-sign .icon-anim[data-v-6b544e46]{transition:.2s}.panfilov-digital-sign[data-v-6b544e46]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon[data-v-6b544e46]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon-anim[data-v-6b544e46]{color:var(--panfilov-digital-sign__hoverSVGColor)}",
+  inject("data-v-3e6f5b74_0", {
+    source: "@import url(https://fonts.googleapis.com/css2?family=Syne&display=swap);.panfilov-digital-sign[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;flex-wrap:wrap;font-size:14px}.panfilov-digital-sign._small[data-v-3e6f5b74]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-3e6f5b74]{margin-top:5px}.panfilov-digital-sign._medium[data-v-3e6f5b74]{align-items:center}.panfilov-digital-sign._large[data-v-3e6f5b74]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-3e6f5b74]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-3e6f5b74]{margin-top:5px}.panfilov-digital-sign .text[data-v-3e6f5b74]{font-family:inherit;font-size:1em;transition:.2s}.panfilov-digital-sign .icon[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__currentSVGColor);font-family:Syne,sans-serif;display:flex;transition:.2s;font-size:1.4em}.panfilov-digital-sign .icon-anim[data-v-3e6f5b74]{transition:.2s}.panfilov-digital-sign[data-v-3e6f5b74]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon-anim[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__hoverSVGColor)}",
     map: undefined,
     media: undefined
   });
@@ -256,10 +256,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-6b544e46";
+var __vue_scope_id__ = "data-v-3e6f5b74";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-6b544e46";
+var __vue_module_identifier__ = "data-v-3e6f5b74";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
