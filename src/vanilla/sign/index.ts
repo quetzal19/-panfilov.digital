@@ -73,8 +73,8 @@ export default ({ el, options }: IProps) => {
   } as IOptions;
   el.innerHTML = html(currentOptions);
   const root = document.documentElement;
-  root.style.setProperty('--panfilov-digital-sign__currentTextColor', options.colors.text.current);
-  root.style.setProperty('--panfilov-digital-sign__hoverTextColor', options.colors.text.hover);
-  root.style.setProperty('--panfilov-digital-sign__currentSVGColor', options.colors.svg.current);
-  root.style.setProperty('--panfilov-digital-sign__hoverSVGColor', options.colors.svg.hover);
+  root.style.setProperty('--panfilov-digital-sign__currentTextColor', currentOptions.colors.text.current);
+  root.style.setProperty('--panfilov-digital-sign__hoverTextColor', currentOptions.colors.text.hover);
+  root.style.setProperty('--panfilov-digital-sign__currentSVGColor', currentOptions.colors.svg.current);
+  root.style.setProperty('--panfilov-digital-sign__hoverSVGColor', currentOptions.colors.svg.hover);
 }
