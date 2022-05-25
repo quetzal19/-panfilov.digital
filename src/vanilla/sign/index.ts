@@ -6,6 +6,7 @@ const defaultOptions = {
   url: 'https://panfilov.digital',
   mode: 'medium',
   darkTheme: false,
+  text: 'Разработка сайта',
   colors: {
     text: {
       current: '#262934',
@@ -34,6 +35,7 @@ interface IOptions {
   mode?: 'small' | 'medium' | 'large';
   darkTheme?: boolean;
   colors?: IColors;
+  text?: string;
 }
 
 interface IProps {
@@ -41,28 +43,28 @@ interface IProps {
   options: IOptions;
 }
 
-const smallHtml = () => (`
-  <span class="text">Разработка сайта</span>
+const smallHtml = ({ text }: IOptions) => (`
+  <span class="text">${text}</span>
   <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
 `);
-const mediumHtml = () => (`
-  <span class="text">Разработка сайта &mdash;&nbsp;</span>
+const mediumHtml = ({ text }: IOptions) => (`
+  <span class="text">${text} &mdash;&nbsp;</span>
   <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
 `);
-const largeHtml = ({ darkTheme }: IOptions) => (`
+const largeHtml = ({ darkTheme, text }: IOptions) => (`
   ${!darkTheme ? logoWhiteSVG : ''}  
   ${darkTheme ? logoBlackSVG : ''}
   <div class="wrapper">
-    <span class="text">Разработка сайта</span>
+    <span class="text">${text}</span>
     <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
   </div>
 `);
 
-const html = ({ url, mode, darkTheme }: IOptions) => (`
+const html = ({ url, mode, darkTheme, text }: IOptions) => (`
   <a href="${url}" target="_blank" class="panfilov-digital-sign" :class="[\`_${mode}\`]">
-    ${mode === 'small' ? smallHtml() : ''}
-    ${mode === 'medium' ? mediumHtml() : ''}
-    ${mode === 'large' ? largeHtml({ darkTheme }) : ''}
+    ${mode === 'small' ? smallHtml({ text }) : ''}
+    ${mode === 'medium' ? mediumHtml({ text }) : ''}
+    ${mode === 'large' ? largeHtml({ darkTheme, text }) : ''}
   </a>
 `);
 

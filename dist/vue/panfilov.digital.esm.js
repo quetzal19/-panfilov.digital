@@ -10,6 +10,10 @@ var script = {
     logoBlackSVG
   },
   props: {
+    text: {
+      default: 'Разработка сайта',
+      type: String
+    },
     darkTheme: {
       default: false,
       type: Boolean
@@ -204,9 +208,13 @@ var __vue_render__ = function () {
     }
   }, [_vm.mode === 'small' ? [_c('span', {
     staticClass: "text"
-  }, [_vm._v("Разработка сайта")]), _vm._v(" "), _vm._m(0)] : _vm._e(), _vm._v(" "), _vm.mode === 'medium' ? [_c('span', {
+  }, [_vm._v(_vm._s(_vm.text))]), _vm._v(" "), _vm._m(0)] : _vm._e(), _vm._v(" "), _vm.mode === 'medium' ? [_c('span', {
     staticClass: "text"
-  }, [_vm._v("Разработка сайта — ")]), _vm._v(" "), _vm._m(1)] : _vm._e(), _vm._v(" "), _vm.mode === 'large' ? [!_vm.darkTheme ? _c('logoWhiteSVG') : _vm._e(), _vm._v(" "), _vm.darkTheme ? _c('logoBlackSVG') : _vm._e(), _vm._v(" "), _vm._m(2)] : _vm._e()], 2);
+  }, [_vm._v(_vm._s(_vm.text) + " — ")]), _vm._v(" "), _vm._m(1)] : _vm._e(), _vm._v(" "), _vm.mode === 'large' ? [!_vm.darkTheme ? _c('logoWhiteSVG') : _vm._e(), _vm._v(" "), _vm.darkTheme ? _c('logoBlackSVG') : _vm._e(), _vm._v(" "), _c('div', {
+    staticClass: "wrapper"
+  }, [_c('span', {
+    staticClass: "text"
+  }, [_vm._v(_vm._s(_vm.text))]), _vm._v(" "), _vm._m(2)])] : _vm._e()], 2);
 };
 
 var __vue_staticRenderFns__ = [function () {
@@ -240,22 +248,18 @@ var __vue_staticRenderFns__ = [function () {
 
   var _c = _vm._self._c || _h;
 
-  return _c('div', {
-    staticClass: "wrapper"
-  }, [_c('span', {
-    staticClass: "text"
-  }, [_vm._v("Разработка сайта")]), _vm._v(" "), _c('span', {
+  return _c('span', {
     staticClass: "icon"
   }, [_vm._v("panfilov."), _c('span', {
     staticClass: "icon-anim"
-  }, [_vm._v("digital")])])]);
+  }, [_vm._v("digital")])]);
 }];
 /* style */
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-3e6f5b74_0", {
-    source: "@import url(https://fonts.googleapis.com/css2?family=Syne&display=swap);.panfilov-digital-sign[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;align-items:center;flex-wrap:wrap;font-size:14px}.panfilov-digital-sign._small[data-v-3e6f5b74]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-3e6f5b74]{margin-top:5px}.panfilov-digital-sign._medium[data-v-3e6f5b74]{align-items:center}.panfilov-digital-sign._large[data-v-3e6f5b74]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-3e6f5b74]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-3e6f5b74]{margin-top:5px}.panfilov-digital-sign .text[data-v-3e6f5b74]{font-family:inherit;font-size:1em;transition:.2s}.panfilov-digital-sign .icon[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__currentSVGColor);font-family:Syne,sans-serif;display:flex;transition:.2s;font-size:1.14em}.panfilov-digital-sign .icon-anim[data-v-3e6f5b74]{transition:.2s}.panfilov-digital-sign[data-v-3e6f5b74]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon-anim[data-v-3e6f5b74]{color:var(--panfilov-digital-sign__hoverSVGColor)}",
+  inject("data-v-5c071ac8_0", {
+    source: "@import url(https://fonts.googleapis.com/css2?family=Syne&display=swap);.panfilov-digital-sign[data-v-5c071ac8]{color:var(--panfilov-digital-sign__currentTextColor);text-decoration:none;display:flex;align-items:center;flex-wrap:wrap;font-size:14px}.panfilov-digital-sign._small[data-v-5c071ac8]{flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._small>.text[data-v-5c071ac8]{margin-top:5px}.panfilov-digital-sign._medium[data-v-5c071ac8]{align-items:center}.panfilov-digital-sign._large[data-v-5c071ac8]{align-items:center}.panfilov-digital-sign._large .wrapper[data-v-5c071ac8]{margin-left:8px;display:flex;flex-direction:column-reverse;align-items:flex-start}.panfilov-digital-sign._large .text[data-v-5c071ac8]{margin-top:5px}.panfilov-digital-sign .text[data-v-5c071ac8]{font-family:inherit;font-size:1em;transition:.2s}.panfilov-digital-sign .icon[data-v-5c071ac8]{color:var(--panfilov-digital-sign__currentSVGColor);font-family:Syne,sans-serif;display:flex;transition:.2s;font-size:1.14em}.panfilov-digital-sign .icon-anim[data-v-5c071ac8]{transition:.2s}.panfilov-digital-sign[data-v-5c071ac8]:hover{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon[data-v-5c071ac8]{color:var(--panfilov-digital-sign__hoverTextColor)}.panfilov-digital-sign:hover .icon-anim[data-v-5c071ac8]{color:var(--panfilov-digital-sign__hoverSVGColor)}",
     map: undefined,
     media: undefined
   });
@@ -263,7 +267,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-3e6f5b74";
+const __vue_scope_id__ = "data-v-5c071ac8";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;

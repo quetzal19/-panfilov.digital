@@ -1,18 +1,18 @@
 <template>
   <a :href="url" target="_blank" class="panfilov-digital-sign" :class="[`_${mode}`]">
     <template v-if="mode === 'small'">
-      <span class="text">Разработка сайта</span>
+      <span class="text">{{ text }}</span>
       <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
     </template>
     <template v-if="mode === 'medium'">
-      <span class="text">Разработка сайта &mdash;&nbsp;</span>
+      <span class="text">{{ text }} &mdash;&nbsp;</span>
       <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
     </template>
     <template v-if="mode === 'large'">
       <logoWhiteSVG v-if="!darkTheme" />
       <logoBlackSVG v-if="darkTheme" />
       <div class="wrapper">
-        <span class="text">Разработка сайта</span>
+        <span class="text">{{ text }}</span>
         <span class="icon">panfilov.<span class="icon-anim">digital</span></span>
       </div>
     </template>
@@ -32,6 +32,10 @@ export default {
   },
 
   props: {
+    text: {
+      default: 'Разработка сайта',
+      type: String,
+    },
     darkTheme: {
       default: false,
       type: Boolean,
